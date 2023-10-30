@@ -1,0 +1,50 @@
+/* TransactionForm.css */
+.form-container {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 auto;
+  display: flex; /* Usa flexbox para centrar los elementos verticalmente */
+  flex-direction: column; /* Alinea los elementos en una sola columna */
+  align-items: center;
+}
+
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 0; /* Quita el margen exterior */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: block; /* Muestra los elementos en una sola columna */
+  }
+  
+  
+  .form-button {
+    background-color: #8d5ef9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* Estilo adicional para los select */
+  .form-input[type="select"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  

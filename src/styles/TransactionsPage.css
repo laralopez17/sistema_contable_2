@@ -1,0 +1,31 @@
+/* TransactionsPage.css */
+
+/* Estilo para el título h1 */
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilo para el menú de opciones internas */
+.button-container {
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #8d5ef9;
+  color: #fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* Estilo para los botones activos */
+.active-component {
+  background-color: #5a36ae; /* Mantén el color original */
+  color: #fff; /* Mantén el color original */
+  padding: 10px 20px; /* Mantén el tamaño original */
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
